@@ -1,0 +1,47 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sat Jun 17 20:44:42 2023
+[*]
+[dumpfile] "/home/matheus/Área de Trabalho/SD/Maquina de chocolate/mechocolate.ghw"
+[dumpfile_mtime] "Sat Jun 17 20:44:07 2023"
+[dumpfile_size] 3127
+[savefile] "/home/matheus/Área de Trabalho/SD/Maquina de chocolate/mechocolate.gtkw"
+[timestart] 0
+[size] 1920 1012
+[pos] -1 -1
+*-25.267025 288800000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_chocolate.
+[treeopen] top.tb_chocolate.u_chocolate.
+[treeopen] top.tb_chocolate.u_chocolate.u_reg.
+[sst_width] 212
+[signals_width] 175
+[sst_expanded] 1
+[sst_vpaned_height] 291
+@200
+-Controle
+@28
+top.tb_chocolate.s_clock
+top.tb_chocolate.s_reset
+@200
+-Entrada
+@28
+#{top.tb_chocolate.s_dinheiro[1:0]} top.tb_chocolate.s_dinheiro[1] top.tb_chocolate.s_dinheiro[0]
+@200
+-Estado
+@28
+#{top.tb_chocolate.u_chocolate.ea[1:3]} top.tb_chocolate.u_chocolate.ea[1] top.tb_chocolate.u_chocolate.ea[2] top.tb_chocolate.u_chocolate.ea[3]
+#{top.tb_chocolate.u_chocolate.spe_reg[2:0]} top.tb_chocolate.u_chocolate.spe_reg[2] top.tb_chocolate.u_chocolate.spe_reg[1] top.tb_chocolate.u_chocolate.spe_reg[0]
+#{top.tb_chocolate.u_chocolate.s_efinal[2:0]} top.tb_chocolate.u_chocolate.s_efinal[2] top.tb_chocolate.u_chocolate.s_efinal[1] top.tb_chocolate.u_chocolate.s_efinal[0]
+@200
+-Saída
+@28
+top.tb_chocolate.u_chocolate.s_disp
+@29
+top.tb_chocolate.u_chocolate.s_dev
+@28
+top.tb_chocolate.u_chocolate.s_cof
+@200
+-Saída reg
+[pattern_trace] 1
+[pattern_trace] 0
