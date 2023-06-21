@@ -1,0 +1,23 @@
+v 4
+file . "UFS.vhdl" "8938b648401ffde3a818a6c9ebad4cbf4592fa82" "20230621114445.669":
+  entity ufs at 1( 0) + 0 on 879;
+  architecture ff of ufs at 11( 182) + 0 on 880;
+file . "regs.vhdl" "acb782a26895d42f7840cf1a301590e4c10a198f" "20230621114445.667":
+  entity regs at 1( 0) + 0 on 875;
+  architecture storage of regs at 10( 216) + 0 on 876;
+file . "FPE.vhdl" "f8c2a9cce5ed82fc961e910e0ce11c8f001478c9" "20230621114445.666":
+  entity fpe at 1( 0) + 0 on 873;
+  architecture comportamento of fpe at 12( 242) + 0 on 874;
+file . "ffjk.vhdl" "d4b412e6b4e0db48c84417e421e401565e2bf8dd" "20230621114445.665":
+  entity ffjk at 2( 70) + 0 on 867;
+  architecture latch of ffjk at 14( 316) + 0 on 868;
+  entity ffd at 72( 2349) + 0 on 869;
+  architecture latch of ffd at 84( 2594) + 0 on 870;
+  entity fft at 107( 3127) + 0 on 871;
+  architecture latch of fft at 119( 3372) + 0 on 872;
+file . "chocolate.vhdl" "c04bbb320149580c6f6a9d4cafceb27e25ea8ef9" "20230621114445.661":
+  entity chocolate at 3( 41) + 0 on 865;
+  architecture doit of chocolate at 13( 281) + 0 on 866;
+file . "tb_chocolate.vhdl" "8f65d4f3c0d387f45c93d7400d1e671eea6c4003" "20230621114445.668":
+  entity tb_chocolate at 3( 41) + 0 on 877;
+  architecture doit of tb_chocolate at 12( 235) + 0 on 878;
